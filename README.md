@@ -48,3 +48,4 @@ download CAMELS-US and place files in `data/` with the same naming.
   `results/frozen_protocol/summary.csv`.
 - Verify the pre-registration lock: the command in ANALYSIS_PLAN.md 8 recomputes the plan's above-marker sha256 (`e4b69b17…`); the verdicts in `results/frozen_protocol_negatives/evaluation.json` name this plan as their governing document. (The locked evaluator's hashes are also recorded in 8; the evaluator script itself ships with the archived full repository.)
 - Verify package integrity: `sha256sum -c MANIFEST.sha256`.
+# Flood_prediction_based_on_physics_priors
